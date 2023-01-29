@@ -1,0 +1,110 @@
+body{
+    background-image:url("https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-108743.jpg?w=2000");
+    background-size:cover;
+   font-family: 'Prosto One', cursive;
+   /*  border: 5px solid brown; */
+   }
+   img{
+       border-radius: 40px;
+   }
+    
+
+
+h2{
+    color: orange;
+    padding-left: 10px;
+}
+
+.icono{
+    color: #DAF7A6;
+    padding-left: 10px;
+}
+
+p{
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+}
+
+/*  #masinfo{
+    
+}
+
+#masinfo2{
+   
+    
+}
+#noinfo{
+    
+}
+ */
+#midiv{
+    display:none;
+}
+    
+
+#redes{
+    color: red;
+}
+ #next{
+  
+     margin-left: 250px;
+   
+ }
+ #infomas{
+     color: darkblue;
+ }
+
+#rell{
+    color: lightgreen;
+    padding-left: 10px;
+}
+
+#nombre {padding-left:50px;
+border:5px solid white;
+border-radius:10px;
+color: red;
+background-color: cornflowerblue;
+background-image:url("https://imgs.search.brave.com/7LQcLDXaonIU7Agz3I9x-0pWwE421rW7onCqXECvNd8/rs:fit:1041:806:1/g:ce/aHR0cHM6Ly93d3cu/c29sb2ZvbmRvcy5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MTUvMTEvdGFibGVi/YWNrLmpwZw");
+animation-name:anima;
+animation-duration:2s;
+animation-iteration-count:infinite;
+}
+
+@keyframes anima{
+    0%{
+     border-color:red;   
+    }
+    25%{
+        border-color:blue;
+    }
+    50%{
+        border-color:deeppink;
+    }
+    75%{
+        border-color:blue;
+    }
+    100%{
+     border-color:red; 
+    }
+}
+
+#auto{
+    color:green;
+    animation: automo 5s infinite;
+    position:absolute;
+   
+    }
+
+
+@keyframes automo{
+    0%{
+        left:0px;
+    }
+    50%{
+        left:350px;
+    }
+    100%{
+        left:0px;
+    }
+}
