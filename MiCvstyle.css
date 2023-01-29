@@ -2,7 +2,7 @@ body{
     background-image:url("https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-108743.jpg?w=2000");
     background-size:cover;
    font-family: 'Prosto One', cursive;
-   /*  border: 5px solid brown; */
+ 
    }
    img{
        border-radius: 40px;
@@ -11,7 +11,7 @@ body{
 
 
 h2{
-    color: orange;
+    color: #DE7400;
     padding-left: 10px;
 }
 
@@ -26,30 +26,21 @@ p{
     padding-left: 10px;
 }
 
-/*  #masinfo{
-    
-}
 
-#masinfo2{
-   
-    
-}
-#noinfo{
-    
-}
- */
 #midiv{
     display:none;
 }
     
 
-#redes{
-    color: red;
-}
+
  #next{
   
-     margin-left: 250px;
-   
+     margin-left: 200px;
+     border-radius:5px ;
+   background-color:orange;
+ }
+ #prev{
+     background-color:orange;
  }
  #infomas{
      color: darkblue;
@@ -66,6 +57,7 @@ p{
 }
 
 #nombre {padding-left:50px;
+text-shadow:5px 2px 4px black;
 border:5px solid white;
 border-radius:10px;
 color: red;
